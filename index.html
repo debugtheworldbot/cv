@@ -56,9 +56,9 @@
       }
 
       a {
-        color: black;
+        color: dimgrey;
         text-decoration: none;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid dimgrey;
       }
 
       p,
@@ -222,8 +222,8 @@
         }
       }
     </style>
-    <style >
-      @media print{
+    <style media="print">
+
         body {
           margin: 0;
         }
@@ -233,7 +233,11 @@
         }
         a[href]:after {
           content: none !important;
-        }}
+        }
+        a:link{text-decoration:none ; color:dimgrey;}
+        a:visited {text-decoration:none ; color:dimgrey;}
+        a:hover {text-decoration:underline ; color:dimgrey;}
+        a:active {text-decoration:none ; color:dimgrey;}
     </style>
   </head>
 
@@ -263,7 +267,7 @@
         <ol>
           <li>
             <header>
-              <h3>vue技术栈实现CNODE社区</h3>
+              <h3>Vue技术栈实现CNODE社区</h3>
               <span>
                 <a target="_blank" href="https://jirengu-inc.github.io/vue-blog-preview/#/">项目预览</a>
               </span>
@@ -276,7 +280,7 @@
               这是我学习完vue的基本功能之后做的一个练手的项目，完成之后对vue等组件有了更深的理解
             </p>
             <p>
-              技术栈：<strong>vue</strong> <strong>vue-router</strong> <strong>vuex</strong> <strong>element-ui</strong> <strong>webpack</strong> <strong>es6</strong>
+              技术栈：<strong>vue</strong>、 <strong>vue-router</strong> 、<strong>vuex</strong> 、<strong>element-ui</strong>、 <strong>webpack</strong> 、<strong>es6</strong>、
               <strong>axios</strong>
             </p>
 
@@ -311,6 +315,7 @@
             <p>
               包括添加，删除网址，搜索，保存本地记录等功能
             </p>
+
           </li>
           <li>
             <header>
@@ -321,8 +326,8 @@
               </span>
             </header>
             <p>
-              利用 <strong>CSS3</strong>实现的作品</p>
-            <p>支持速度控制，随着css内容的一步步添加，逐渐完成一个简易皮卡丘</p>
+              利用 <strong>CSS3</strong> 实现的作品</p>
+            <p>支持速度控制，随着CSS内容的一步步添加，逐渐完成一个简易皮卡丘</p>
             </p>
           </li>
         </ol>
@@ -338,7 +343,7 @@
               AJAX、跨域、前端路由、Cookie、Session 等
             </li>
             <li>
-              熟练掌握 <strong>Vue全</strong>的使用，包括
+              熟练掌握 <strong>Vue</strong>的使用，包括
               VueCli、VueRouter、Vuex 等
             </li>
             <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
@@ -350,7 +355,7 @@
         </div>
       </section>
 
-
+      <div style="page-break-after: always;"></div>
       <section class="others">
         <h2>其他链接</h2>
         我的
